@@ -39,7 +39,7 @@ export default function StaffSidebar() {
 
   return (
     <header className="fixed left-0 top-0 z-50 w-full px-6 py-4">
-      <nav className="mx-auto max-w-7xl overflow-hidden rounded-full border border-[#006a61]/25 bg-white/55 px-6 py-3 shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_18px_45px_rgba(0,106,97,0.14)] backdrop-blur-3xl backdrop-saturate-150">
+      <nav className="mx-auto max-w-7xl overflow-visible rounded-full border border-[#006a61]/25 bg-white/55 px-6 py-3 shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_18px_45px_rgba(0,106,97,0.14)] backdrop-blur-3xl backdrop-saturate-150">
         <div className="relative flex items-center justify-between">
           {/* Logo / Staff Info */}
           <Link href="/staff/report" className="group flex items-center gap-3">
